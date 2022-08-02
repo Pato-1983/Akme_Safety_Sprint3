@@ -13,9 +13,9 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/brugrieco/sprint3akmesafety/issues"
+    "url": "https://https://github.com/Pato-1983/Akme_Safety_Sprint3/issues"
   },
-  "homepage": "https://github.com/brugrieco/sprint3akmesafety#readme",
+  "homepage": "https://https://github.com/Pato-1983/Akme_Safety_Sprint3#readme",
   "dependencies": {
     "ejs": "^3.1.8",
     "express": "^4.18.1"
