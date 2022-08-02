@@ -392,6 +392,10 @@ main.productDetail-main {
     align-items: center;
 }
 
+.product-detail-detail .description {
+    text-align: justify;
+}
+
 main.productDetail-main div.form-buttons {
     width: 300px;
     justify-content: center;
@@ -442,7 +446,7 @@ main form.create-form button,
     margin: 10px 0px;
     border-style: none;
     border-radius: 5px;
-    background-color: purple;
+    background-color: #203944;
     color: #fff;
     font-weight: bold;
     text-transform: uppercase;
@@ -451,8 +455,8 @@ main form.create-form button,
 /* .login-form button:hover,
 .register-form button:hover, */
 .submit-button:hover{
-    background-color: yellow;
-    color: blue;
+    background-color: #4b99bd;
+    color: #203944;
 }
 
 /********************** detail p/celu **********************/
@@ -476,6 +480,191 @@ main.productDetail-main div.form-buttons {
     align-items: center;
 }
 
+/*************PRODUCT CART*************/
+
+.item_container {
+    padding: 15px 0px 15px 0px;
+}
+
+.titleCart, h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #111016;
+    text-align: center;
+}
+
+.productCart {
+    display: flex;
+    margin: auto;
+    justify-content: stretch;
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border: 4px groove rgb(8, 19, 99);
+}
+
+.delete {
+    margin-left: 2px;
+    background: #18a999;
+    bottom: 0;
+    border-radius: 10px;
+    padding: 5px 11px;
+    font-size: 15px;
+    height: 30px;
+    color: #f6f4f4;
+    border: none;
+}
+
+.btn_delete {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 25%;
+    
+}
+
+.product_units {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5px;
+   
+}
+
+.product_units select {
+    width: 40%;
+    padding: 5px;
+    border: 1px solid rgb(119, 119, 119);
+    border-radius: 5px;
+}
+
+.btn_delete button:hover {
+    background-color: red;
+    cursor: pointer;
+}
+.product_infoCart {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    width: 55%;
+    height: 55%;
+    
+}
+
+.productCart h2 {
+    text-align: left;
+    margin: auto;
+    width: 100%;
+    
+    color: black;
+    width: 100%;
+
+}
+
+.img_product img {  /* detalles de la imagend del product */
+    width: 50%;
+    height: auto;
+    border: 2px solid rgb(119, 119, 119);
+    border-radius: 40px;
+
+}
+
+.img_product {
+    width: 20%;
+    height: auto;
+    border-radius: 40px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.price {       
+    text-align: left;
+}
+.product_units input {
+    width: 60px;
+    height: 30px;
+    float: left;
+    display: block;
+    border: 1px solid #eee;
+    text-align: center;
+}
+
+.product_units {
+    align-self: left;
+    float: left;
+}
+
+.subtotal { /* se debe corregir la animacion, queda pendiente */
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 90%;
+    padding: 5px;
+    border: 1px solid black;
+    
+}
+
+.subtotal p {
+    text-align: left;
+    justify-content: left;
+    width: 100%;
+    text-align: center;
+}
+.envio {
+    width: 100%;
+    text-align: center;
+
+}
+.form_buy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 10px;
+    
+}
+.form_buy  button {
+    border: none;
+    margin-left: 2px;
+    background: #18a999;
+    position: relative;
+    border-radius: 10px;
+    padding: 5px 11px;
+    font-size: 20px;
+    height: 40px;
+    color: #f6f4f4;
+}
+
+.form_buy  button:hover {
+    background-color: #2c5364;
+    cursor: pointer;
+}
+.send_options {
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 45%;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 0px 5vw;
+    height: 100%;
+}
+.send{
+    width: 60%;
+    height: 30px;
+}
+/*********** Fin de los estilos del carrito de compras **************/
 
 
 
@@ -561,11 +750,17 @@ main.productDetail-main div.form-buttons {
         }
     
         main.productDetail-main div.form-buttons {
-            width: 300px;
             justify-content: center;
             align-items: center;
         }
-    
+
+        .product-detail-detail {
+            width: 80%;
+        }
+
+        main img {
+            width: 70%;
+        }
     }
 
 @media (min-width: 960px){

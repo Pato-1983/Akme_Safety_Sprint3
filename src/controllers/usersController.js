@@ -4,7 +4,7 @@ controlador = {
 
     login: (req,res) => res.render('users/login'),
 
-    cart: (req,res) => res.render('products/carritoCompras'),
+    cart: (req,res) => res.render('users/userCart'),
     
 };
 
