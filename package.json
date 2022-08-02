@@ -1,14 +1,13 @@
 {
   "name": "akmesafetysprint3",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "/main/index.js",
   "scripts": {
     "start": "node src/app.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/brugrieco/sprint3akmesafety.git"
+    "url": "git+https://https://github.com/Pato-1983/Akme_Safety_Sprint3.git"
   },
   "keywords": [],
   "author": "",
@@ -16,9 +15,11 @@
   "bugs": {
     "url": "https://github.com/brugrieco/sprint3akmesafety/issues"
   },
-  "homepage": "",
+  "homepage": "https://github.com/brugrieco/sprint3akmesafety#readme",
   "dependencies": {
     "ejs": "^3.1.8",
     "express": "^4.18.1"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }
